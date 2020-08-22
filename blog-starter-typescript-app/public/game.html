@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="game.css">
+		<script src="actionsStageOne.js"></script>
+		<script src="storyStageOne.js"></script>
+		<script src="gameStageOne.js"></script>
+	</head>
+	<body>
+		<div id="stage-one">
+			<div id="imagebox">
+			</div>
+			<div id="textbox" class="centeredContainer hidden">
+				<span id="main-text" class="fade-in">Once upon a time, there was a world filled with splendor and beauty...</span>
+			</div>
+		</div>
+		<div id="stage-two" class="stage-two">
+			<div id="top" class="row">
+				<div id="ebox" class="energy-box">
+					<label class="energy-bar-label" for="energy">Energy</label>
+					<br>
+					<progress id="energy" class="energy-bar" value="50" max="100">50</progress>
+					<br>
+					<label class="energy-bar-label" for="pet-energy">Pet Energy</label>
+					<br>
+					<progress id="pet-energy" class="energy-bar" value="30" max="100">30</progress>
+				</div>
+				<div id="resource-box" class="resource-box">
+					<label class="energy-bar-label" for="research">Research</label>
+					<br>
+					<progress id="research" class="energy-bar" value="50" max="100">50</progress>
+					<br>
+					<label class="energy-bar-label" for="Lifeforce">Lifeforce</label>
+					<br>
+					<progress id="Lifeforce" class="energy-bar" value="30" max="100">30</progress>
+				</div>
+				<div id="tbox" class="textbox">
+					<span id="initial-text" class="textbox-text">Test Text</span>
+				</div>
+			</div>
+			<div id="center" class="row main">
+				<div class="main-bars">
+					<label class="energy-bar-label" for="branches">Branches</label>
+					<br>
+					<progress id="branches" class="energy-bar" value="50" max="100">50</progress>
+					<br>
+					<label class="energy-bar-label" for="apples">Apples</label>
+					<br>
+					<progress id="apples" class="energy-bar" value="30" max="100">30</progress>
+				</div>
+			</div>
+			<div class="toolbar">
+				<image class="picture" src="./assets/blog/game/cover.jpg"></image>
+			</div>
+		</div>
+	</body>
+</html>
